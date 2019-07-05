@@ -42,7 +42,7 @@ int onenet_network_config(void)
 //	
 //	rt_err_t rt_wlan_start_ap_adv( &info, NULL);
 
-	result = rt_wlan_connect("LBAGMY", "libo#520&gaomingyue");
+	result = rt_wlan_connect(RT_WLAN_DEFAULT_SSID, RT_WLAN_DEFAULT_PASSWORD);
     if (result != RT_EOK)
     {
         rt_kprintf("\r\nconnect ssid !\r\n");

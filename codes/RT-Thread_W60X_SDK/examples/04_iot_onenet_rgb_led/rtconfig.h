@@ -103,6 +103,9 @@
 #define RT_WLAN_WORKQUEUE_THREAD_PRIO 22
 #define RT_WLAN_DEV_EVENT_NUM 2
 
+#define RT_WLAN_DEFAULT_SSID "LBAGMY"
+#define RT_WLAN_DEFAULT_PASSWORD "libo#520&gaomingyue"
+
 /* Using USB */
 
 

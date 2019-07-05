@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<BSSignalRegistry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>w600</Name>
+  <Latency>0</Latency>
+  <Signals>
+    <BSSignal>
+      <Name />
+      <DataFormat>String</DataFormat>
+      <Data>AT\r\n</Data>
+      <Latency>0</Latency>
+      <Active>false</Active>
+    </BSSignal>
+    <BSSignal>
+      <Name>复位</Name>
+      <DataFormat>String</DataFormat>
+      <Data>AT+RST\r\n</Data>
+      <Latency>0</Latency>
+      <Active>false</Active>
+    </BSSignal>
+    <BSSignal>
+      <Name>查询版本</Name>
+      <DataFormat>String</DataFormat>
+      <Data>AT+GMR\r\n</Data>
+      <Latency>0</Latency>
+      <Active>false</Active>
+    </BSSignal>
+    <BSSignal>
+      <Name>查询系统剩余内存</Name>
+      <DataFormat>String</DataFormat>
+      <Data>AT+SYSRAM?\r\n</Data>
+      <Latency>0</Latency>
+      <Active>false</Active>
+    </BSSignal>
+    <BSSignal>
+      <Name />
+      <DataFormat>String</DataFormat>
+      <Data>AT+CWMODE=1\r\n</Data>
+      <Latency>0</Latency>
+      <Active>false</Active>
+    </BSSignal>
+  </Signals>
+</BSSignalRegistry>
