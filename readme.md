@@ -107,46 +107,46 @@ TB-01 是星通智联开发的一款基于联盛德 W600 的超小体积核心�
  / | \     4.0.0 build Jun 30 2019
  2006 - 2018 Copyright by rt-thread team
 lwIP-2.0.2 initialized!
-[32m[5] I/SAL_SOC: Socket Abstraction Layer initialize success.
+[32m[5] I/SAL_SOC: Socket Abstraction Layer initialize success.
 
-[0m[32m[64] I/WLAN.dev: wlan init success
+[0m[32m[64] I/WLAN.dev: wlan init success
 
-[0m[32m[95] I/WLAN.lwip: eth device init ok name:w0
+[0m[32m[95] I/WLAN.lwip: eth device init ok name:w0
 
-[0m[32m[100] I/WLAN.dev: wlan init success
+[0m[32m[100] I/WLAN.dev: wlan init success
 
-[0m[32m[132] I/WLAN.lwip: eth device init ok name:w1
+[0m[32m[132] I/WLAN.lwip: eth device init ok name:w1
 
-[0m[D/FAL] (fal_flash_init:61) Flash device |                nor_flash | addr: 0x00000000 | len: 0x00100000 | blk_size: 0x00001000 |initialized finish.
-[32;22m[I/FAL] ==================== FAL partition table ====================[0m
-[32;22m[I/FAL] | name      | flash_dev |   offset   |    length  |[0m
-[32;22m[I/FAL] -------------------------------------------------------------[0m
-[32;22m[I/FAL] | app       | nor_flash | 0x00010000 | 0x00080000 |[0m
-[32;22m[I/FAL] | download  | nor_flash | 0x00090000 | 0x00060000 |[0m
-[32;22m[I/FAL] | fs_part   | nor_flash | 0x000f0000 | 0x0000b000 |[0m
-[32;22m[I/FAL] | easyflash | nor_flash | 0x000fb000 | 0x00001000 |[0m
-[32;22m[I/FAL] =============================================================[0m
-[32;22m[I/FAL] RT-Thread Flash Abstraction Layer (V0.3.0) initialize success.[0m
+[0m[D/FAL] (fal_flash_init:61) Flash device |                nor_flash | addr: 0x00000000 | len: 0x00100000 | blk_size: 0x00001000 |initialized finish.
+[32;22m[I/FAL] ==================== FAL partition table ====================[0m
+[32;22m[I/FAL] | name      | flash_dev |   offset   |    length  |[0m
+[32;22m[I/FAL] -------------------------------------------------------------[0m
+[32;22m[I/FAL] | app       | nor_flash | 0x00010000 | 0x00080000 |[0m
+[32;22m[I/FAL] | download  | nor_flash | 0x00090000 | 0x00060000 |[0m
+[32;22m[I/FAL] | fs_part   | nor_flash | 0x000f0000 | 0x0000b000 |[0m
+[32;22m[I/FAL] | easyflash | nor_flash | 0x000fb000 | 0x00001000 |[0m
+[32;22m[I/FAL] =============================================================[0m
+[32;22m[I/FAL] RT-Thread Flash Abstraction Layer (V0.3.0) initialize success.[0m
 [Flash] EasyFlash V3.3.0 is initialize success.
 [Flash] You can get the latest version on https://github.com/armink/EasyFlash .
-msh />[32m[4268] I/WLAN.mgnt: wifi connect success ssid:LBAGMY
+msh />[32m[4268] I/WLAN.mgnt: wifi connect success ssid:LBAGMY
 
-[0m[D/ONENET] (onenet_mqtt_init:201) onnect mqtt init
+[0m[D/ONENET] (onenet_mqtt_init:201) onnect mqtt init
 [D/ONENET] (mqtt_connect_callback:85) Enter mqtt_connect_callback!
-[36;22m[I/ONENET] RT-Thread OneNET package(V1.0.0) initialize success.[0m
-[32m[5296] I/WLAN.lwip: Got IP address : 192.168.1.6
+[36;22m[I/ONENET] RT-Thread OneNET package(V1.0.0) initialize success.[0m
+[32m[5296] I/WLAN.lwip: Got IP address : 192.168.1.6
 
-[0m[32m[5477] I/MQTT: MQTT server connect success
+[0m[32m[5477] I/MQTT: MQTT server connect success
 
-[0m[D/ONENET] (mqtt_online_callback:90) Enter mqtt_online_callback!
+[0m[D/ONENET] (mqtt_online_callback:90) Enter mqtt_online_callback!
 buffer : {"power":"10","color":"4"}
-topic_name is:$dp[31m[30547] E/MQTT: [30547] wait Ping Response res: 0
+topic_name is:$dp[31m[30547] E/MQTT: [30547] wait Ping Response res: 0
 
-[0m[D/ONENET] (mqtt_offline_callback:96) Enter mqtt_offline_callback!
+[0m[D/ONENET] (mqtt_offline_callback:96) Enter mqtt_offline_callback!
 [D/ONENET] (mqtt_connect_callback:85) Enter mqtt_connect_callback!
-[32m[35662] I/MQTT: MQTT server connect success
+[32m[35662] I/MQTT: MQTT server connect success
 
-[0m[D/ONENET] (mqtt_online_callback:90) Enter mqtt_online_callback!
+[0m[D/ONENET] (mqtt_online_callback:90) Enter mqtt_online_callback!
 buffer : {"power":"10","color":"4"}
 topic_name is:$dp[D/ONENET] (mqtt_callback:60) topic $creq/a2a663b4-5b87-57ad-81d8-9e563659e540 receive a message
 [D/ONENET] (mqtt_callback:62) message length is 1
