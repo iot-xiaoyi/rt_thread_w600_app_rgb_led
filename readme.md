@@ -177,15 +177,15 @@ topic_name is:$dp
 
 红灯模式
 
-![红灯](./materials/image/led_red.jpg)
+![红灯](./materials/image/led_red.png)
 
 绿灯模式
 
-![绿灯](./materials/image/led_green.jpg)
+![绿灯](./materials/image/led_green.png)
 
 蓝灯模式
 
-![蓝灯](./materials/image/led_blue.jpg)
+![蓝灯](./materials/image/led_blue.png)
 
 
 ## 大漠孤沙
@@ -193,3 +193,5 @@ topic_name is:$dp
 
 
 作者: 一叶孤沙 (QQ 2985672336)
+
+QQ交流群：906015840 (备注：物联网项目交流)
